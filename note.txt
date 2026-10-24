@@ -12,3 +12,10 @@ instrumentation.mjs Dockerfile docker-compose.yml .dockerignore .gitignore .env.
 
 
 prometheus-grafana-jaeger
+docker image 
+docker image prune -a
+docker volume ls
+docker volume prune
+docker system prune -a
+docker system prune -a --volumes
+docker system df
