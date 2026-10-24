@@ -1,0 +1,14 @@
+npm init -y
+npm install express
+
+
+mkdir -p src test observability/grafana/provisioning/{datasources,dashboards} && \
+touch src/{app.js,server.js,logger.js,metrics.js} \
+test/app.test.js \
+observability/prometheus.yml \
+observability/grafana/provisioning/datasources/prometheus.yml \
+observability/grafana/provisioning/dashboards/{dashboard.yml,observability.json} \
+instrumentation.mjs Dockerfile docker-compose.yml .dockerignore .gitignore .env.example package.json
+
+
+prometheus-grafana-jaeger
