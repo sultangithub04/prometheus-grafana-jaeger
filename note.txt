@@ -16,6 +16,7 @@ docker image
 docker image prune -a
 docker volume ls
 docker volume prune
+docker volume prune -a
 docker system prune -a
 docker system prune -a --volumes
 docker system df
